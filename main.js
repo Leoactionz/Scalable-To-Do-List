@@ -1,6 +1,8 @@
 // UI CONTROLLER
 let UIController = (() => {
-    // Domstrings make programmers lives easier enables quick update here instead of updating each methods when there is a change on the interface
+    // Domstrings make programmers lives easier 
+    // enables quick update here instead of updating each methods 
+    // when there is a change on the interface
     let DOMstrings = {
         addToDo: ".addToDo",
         inputField: ".inputField",
