@@ -1,3 +1,4 @@
+// Long Version 
 // UI CONTROLLER
 let UIController = (() => {
     // Domstrings make programmers lives easier 
@@ -77,3 +78,16 @@ let controller = ((UICtrl) => {
 })(UIController);
 
 controller.init();
+
+
+
+
+// Short Version 
+// document.querySelector('.addToDo').addEventListener('click', ()=>{
+//     let paragraph = document.createElement('p');
+//     paragraph.innerText = document.querySelector('.inputField').value;
+//     document.querySelector('.toDoContainer').appendChild(paragraph);
+//     document.querySelector('.inputField').value = '';
+//     paragraph.addEventListener('click', ()=>{paragraph.style.textDecoration = "line-through";})
+//     paragraph.addEventListener('dblclick', ()=>{document.querySelector('.toDoContainer').removeChild(paragraph);})
+// })
